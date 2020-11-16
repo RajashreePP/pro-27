@@ -21,11 +21,11 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-bob1=new Bob(10,300,50)
-bob2=new Bob(50,300,50)
-bob3=new Bob(100,300,50)
-bob4=new Bob(250,400,50)
-bob5=new Bob(450,450,50)
+bob1=new Bob(10,300,40)
+bob2=new Bob(50,300,40)
+bob3=new Bob(100,300,40)
+bob4=new Bob(250,300,40)
+bob5=new Bob(450,300,40)
 roof=new Roof(400,100,500,30)
 rope1=new Rope(bob1.body,roof.body,-bobDiameter*2,0)
 rope2=new Rope(bob2.body,roof.body,-bobDiameter*1,0)
